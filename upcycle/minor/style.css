@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --navbar-height: 59px
+}
+
+#first {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+}
+
+#logo {
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    margin: 3px 5px;
+    height: 100px;
+    border-radius: 80px;
+}
+
+#first ul {
+    display: flex;
+
+}
+
+/* #first{
+    position: relative;
+} */
+#first::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    /* background-color: rgb(50 190 50) ; */
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#first ul li {
+    list-style: none;
+    font-size: 1.3 rem;
+
+}
+
+#first ul li a {
+    color: white;
+    /* color: rgb(43, 72, 43); */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+#first ul li a:hover {
+    color: white;
+    background-color: rgb(88, 143, 88);
+    cursor: pointer;
+}
+
+#home {
+
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(/uw5.webp) no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    /* font-family: 'Rubik Pixels', cursive; */
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Crimson Text', serif;
+    /* font-family: 'Acme', sans-serif; */
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5 rem;
+}
+
+#services {
+    margin: 32px;
+    display: flex;
+    /* background-color: rgb(46, 122, 46); */
+
+}
+
+/* .services-outer::before{
+    background-color: rgb(46, 122, 46);
+    height: 700px;
+    opacity: 0.7;
+} */
+#services .box {
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 3px 60px;
+    border-radius: 28px;
+    background-color: rgb(227, 216, 216);
+    /* box-shadow: 15px 15px 10px #36461e; */
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 15px 15px 10px #36461e;
+}
+
+#services .box img {
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#services {}
+
+#city-sec {
+    height 344px;
+
+
+}
+
+#city-sec::before {
+    content: "";
+    position: absolute;
+    background: url(/citybg6.webp) no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#city img {
+    height: 150px;
+    width: 195px;
+    border-radius: 8px;
+}
+
+.city-item {
+    position: relative;
+    padding: 40px;
+}
+
+.city-item div{
+    position: absolute;
+    bottom: 90px;
+    right: 10px;
+    left: 10px;
+    top: 40px;
+    border-radius: 8px;
+    background:black;
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-family:'Bree Serif', serif;
+    visibility: hidden;
+    /* opacity: 0.7;
+    width: 150px;
+    padding: 8px 15px 0px 30px; */
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    height: 143px;
+    /* width: 200px; */
+    align-items: center;
+    /* justify-content: center; */
+    
+} 
+.city-item:hover{
+    cursor: pointer;
+}
+.city-item:hover div{
+    visibility: visible;
+    opacity: 0.7;
+    width: 150px;
+    padding: 8px 15px 0px 30px;
+    
+    
+}
+.hp1 {
+    background-color: rgb(46, 122, 46);
+    opacity: o.8;
+}
+
+.hp {
+    font-size: 3.8rem;
+    padding: 12px;
+    /* font-family: 'Acme', sans-serif; */
+    /* font-family: 'Crimson Text', serif; */
+    font-family: 'Bree Serif', serif;
+    /* background-color: rgb(46, 122, 46); */
+
+}
+
+.hs {
+    font-size: 1.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(115 97 97);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}

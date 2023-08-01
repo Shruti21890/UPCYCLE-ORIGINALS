@@ -1,0 +1,235 @@
+:root {
+	--main-color: #b2e8f9;
+	--main-color-hover: #5ad810;
+	--dark-color: #151515;
+	--light-dark-color: #213b22;
+	--paragraph-color: #a1a2a9;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+	line-height: 1.6;
+	letter-spacing: .6px;
+	color: var(--paragraph-color);
+	font-size: 1rem;
+}
+
+h1 {
+	color: var(--light-dark-color);
+	font-size: 4.25rem;
+}
+
+h2 {
+	color: var(--light-dark-color);
+	font-size: 2rem;
+}
+
+h3 {
+	color: var(--light-dark-color);
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	font-family: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+	font-family: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+input,
+textarea {
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.thick {
+	font-weight: 700;
+}
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+/* Mini Info */
+
+.mini-info {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px 0;
+}
+
+/* Mini Info | Logo */
+
+.mini-info .logo h2 {
+	font-weight: 400;
+}
+
+.mini-info .logo .fas {
+	color: var(--dark-color);
+	background: var(--main-color);
+	padding: 10px;
+	border-radius: 50%;
+}
+
+/* Mini Info | Phone Numbers */
+
+.mini-info .phone {
+	display: flex;
+}
+
+.mini-info .phone p:first-child {
+	padding-bottom: 10px;
+}
+
+.mini-info .phone .phone-logo {
+	padding-right: 30px;
+}
+
+.mini-info .phone .phone-logo .fas {
+	color: black;
+	font-size: 20px;
+	border-radius: 50%;
+	border: 1px solid #cadace;
+	padding: 15px;
+}
+
+.mini-info .phone p:hover {
+	color: var(--main-color);
+	transition: all .2s ease;
+}
+
+/* Mini Info | Location */
+
+.mini-info .location {
+	display: flex;
+}
+
+.mini-info .location p:first-child {
+	padding-bottom: 10px;
+}
+
+.mini-info .location .location-logo {
+	padding-right: 30px;
+}
+
+.mini-info .location .location-logo .fas {
+	color: black;
+	font-size: 20px;
+	border-radius: 50%;
+	border: 1px solid #d8e3d8;
+	padding: 15px 18px;
+}
+
+
+/* request a call */
+
+.mini-info button {
+	background: none;
+	border: 1px solid black;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: red;
+}
+
+
+
+/* Navigationbar  */
+
+.navbar {
+	padding: 20px;
+	background: var(--dark-color);
+}
+
+.navbar .nav-list ul {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar .nav-list ul li {
+	display: flex;
+	color: #eff7ef;
+	padding: 0 30px;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 500;
+}
+
+/* Header */
+
+.header {
+	display: flex;
+	justify-content: right;
+	justify-items: right;
+	height: 50vh;
+	background: #5aca52;
+}
+
+/* Header | Service Title */
+
+.header .services-title {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	
+	
+}
+.contact-form {
+	max-width: 650px;
+	margin:40px;
+	border:  solid#151515;
+	
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 20px;
+	font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px  rgba(27, 21, 21, 0.912);
+  }
+  
+  textarea {
+	height: 150px;
+  }
+  
+  .btn-submit {
+	background-color: #2980b9;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+	background-color: #1c6ca0;
+  }
+  

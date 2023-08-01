@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Place To Dump Your p-waste | upcycleoriginals.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="first">
+        <div id="logo">
+            <img src="uw4.png" alt="upcyclewaste.com">
+        </div>
+        <ul>
+            <li class="second" id="k1"><a href="#">HOME</a></li>
+            <li class="second"><a href="#">REPORTS</a></li>
+            <li class="second"><a href="#">SERVICES</a></li>
+            <li class="second"><a href="#">ABOUT US</a></li>
+            <li class="second"><a href="#">CONTACT US</a></li>
+
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="hp">Welcome to Clean and Green World</h1>
+<p>The clean and green ecosystem provides us with fresh air and pollution is also reduced. We can save the planet by conserving trees, natural vegetation, water, natural resources, electricity, and other resources. To control environmental pollution and global warming, we must strictly adhere to all available measures</p>
+<p>You can donate your plastic waste to us by simply filling a form</p>
+<button class="btn">Donate Now</button>
+    </section>
+    <section class="services-outer">
+        <h1 class="hp center hp1" > Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="uw10.png" alt="plastic waste">
+                <h2 class="hs"> Sell your P-Waste</h2>
+<p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam aspernatur harum velit qui et dicta obcaecati quia laboriosam praesentium!</p>
+            </div>
+            <div class="box">
+                <img src="uw11.png" alt="plastic waste">
+                <h2 class="hs"> Buy Upcycled Products</h2>
+<p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime suscipit necessitatibus rerum quidem eos nihil illum quam culpa, nulla porro!</p>
+            </div>
+            <div class="box">
+                <img src="uw12.webp" alt="plastic waste">
+                <h2 class="hs"> JOIN US For Cleaning Events</h2>
+<p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus inventore quidem omnis! Ullam aliquam excepturi ipsam ducimus rem commodi tempora!</p>
+            </div>
+        </div>
+    </section>
+    <section id="city-sec">
+        <h1 class="hp center hp1"> <strong>Cities</strong>We Cover</h1>
+          <div id="city">
+            <div class="city-item">
+                <img  src="uw13.jpg"alt="AGRA">
+                <div>AGRA</div>
+            </div>
+            <div class="city-item">
+                <img  src="uw14.jpg" alt="GWALIOR">
+                <div >GWALIOR</div>
+            </div>
+            <div class="city-item">
+                <img  src="uw15.jpg" alt="MATHURA">
+                <div>MATHURA</div>
+            </div>
+            <div class="city-item">
+                <img  src="uw16.jpg" alt="INDORE">
+                <div>INDORE</div>
+            </div>
+          </div>
+
+    </section>
+
+</body>
+</html>
